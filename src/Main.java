@@ -16,9 +16,9 @@ public class Main {
 
         System.out.println("Enviando mensaje: " + mensaje_enviar);
         System.out.println("Nombre: " + paquete.getAddress().getHostName());
-        System.out.println("Destino: " + destino.getHostAddress() + ":" + port);
+        System.out.println("IP Destino: " + destino.getHostAddress() + ":" + port);
         System.out.println("Tamaño: " + paquete.getLength());
-        System.out.println("Puerto: " + paquete.getPort());
+        System.out.println("Puerto salida: " + paquete.getPort());
         System.out.println("Puerto destino: " + socket.getLocalPort());
         System.out.println("Paquete: " + paquete);
 
