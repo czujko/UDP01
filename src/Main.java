@@ -19,6 +19,7 @@ public class Main {
         System.out.println("Destino: " + destino.getHostAddress() + ":" + port);
         System.out.println("Tamaño: " + paquete.getLength());
         System.out.println("Puerto: " + paquete.getPort());
+        System.out.println("Puerto destino: " + socket.getLocalPort());
         System.out.println("Paquete: " + paquete);
 
 
