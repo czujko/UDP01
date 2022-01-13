@@ -18,6 +18,7 @@ public class Main {
         System.out.println("Nombre: " + paquete.getAddress().getHostName());
         System.out.println("Destino: " + destino.getHostAddress() + ":" + port);
         System.out.println("Tamaño: " + paquete.getLength());
+        System.out.println("Puerto: " + paquete.getPort());
         System.out.println("Paquete: " + paquete);
 
 
